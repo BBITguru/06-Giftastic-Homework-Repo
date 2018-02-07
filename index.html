@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>That's GifTastic!</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+</head>
+
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+      <div id="logo-container" href="#" class="brand-logo"> That's GifTastic!</a>
+      </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br>
+      <h1 class="header center orange-text">Click Buttons</h1>
+      <h1 class="header center orange-text">Receive Gifs</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive app utilizing the Giphy API and Materialize front-end framework</h5>
+      </div>
+
+      <div id="searchContainer" class="col s12 m10">
+        <p id="searchText">Click a button below to generate Gifs or add a button of your own!</p>
+        <div id="searchBox" class="searchBox">
+          <div class="searchCard">
+            <label id="searchLabelText" for="topicInput">Add a Gif Topic</label>
+            <input type="text" id="newTopic" size="20" />
+          </div>
+          <div class="row center">
+            <button id="getGiphy" class="waves-effect waves-light btn">Get Giphy wid It!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="mainContain">
+    <div class="section" id="topicBtnSection">
+      <h5>Topic Buttons</h5>
+      <!--   Topic buttons to appear in this div   -->
+      <div id="topics" class="row center">
+        <a id="topicBtn"></a>
+        <!-- <a id="topicBtn" class="waves-effect waves-light btn" data-topic="XBox">X Box</a>
+        <a id="topicBtn" class="waves-effect waves-light btn" data-topic="Movies">Movies</a>
+        <a id="topicBtn" class="waves-effect waves-light btn" data-topic="Funny">Funny</a>
+        <a id="topicBtn" class="waves-effect waves-light btn" data-topic="Dogs">Dogs</a>
+        <a id="topicBtn" class="waves-effect waves-light btn" data-topic="Cats">Cats</a>
+        <a id="topicBtn" class="waves-effect waves-light btn" data-topic="Chickens">Chickens</a> -->
+      </div>
+    </div>
+
+    <!--Gifs to appear in a new small card in this div -->
+    <div class="myCard" id="gifs-appear-here">
+      <!-- Card Content -->
+    </div>
+  </div>
+
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Teach me How to Giphy</h5>
+          <p class="grey-text text-lighten-4">Click one of the buttons to display Gifs from Giphy. Search for new Gifs in the Giphy API by entering your query
+            in the search bar and clicking search"
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright">
+      <div class="container">
+        Brought to you by
+        <button class="orange-text text-lighten-3" href="http://materializecss.com">BBIT.guru</a>
+      </div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="assets/js/materialize.js"></script>
+  <script src="assets/js/init.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>

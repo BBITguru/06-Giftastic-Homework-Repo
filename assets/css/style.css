@@ -1,0 +1,75 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#topicBtnSection{
+  background-color: rgba(104, 246, 194, 0.868);
+}
+
+#searchBox, #searchText {
+  padding: 10px;
+}
+
+#searchLabelText{
+  color: black;
+  font-size: 14px;
+}
+
+#topics{
+  max-width: 100%;
+  align-content: center;
+}
+
+#topicBtn{
+ width:300px;
+ margin-top: 10px;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+.myCard{
+height: 1000px;
+position: relative;
+margin: 0.5rem 0 1rem 0;
+background-color: #fff;
+-webkit-transition: -webkit-box-shadow .25s;
+transition: -webkit-box-shadow .25s;
+transition: box-shadow .25s;
+transition: box-shadow .25s, -webkit-box-shadow .25s;
+border-radius: 2px;
+}
+
+#gifDiv{
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  margin: 5px;
+  float: left;
+  background-color: rgba(128, 128, 128, 0.621);
+  align-content: center;
+}
+
+#gifImg{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card.large{
+  height:1000px;
+  align-content: center;
+}
+
+#gifs-appear-here{
+  margin: auto;
+}
